@@ -33,5 +33,5 @@ altair==4.2.2
 easygui==0.98.3
 
 # Additional dependencies
-pytorch-lightning==1.9.0
+pytorch-lightning==2.4.0
 triton==2.1.0
