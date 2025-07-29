@@ -1,0 +1,37 @@
+# Core ML packages
+torch==2.1.2
+torchvision==0.16.2
+xformers==0.0.23.post1
+
+# Training framework
+accelerate==0.25.0
+transformers==4.36.2
+diffusers[torch]==0.25.0
+bitsandbytes==0.43.0
+
+# Optimization libraries
+prodigyopt==1.0
+lion-pytorch==0.0.6
+
+# Data processing
+opencv-python==4.8.1.78
+Pillow==10.2.0
+ftfy==6.1.1
+einops==0.7.0
+
+# Utilities
+tensorboard==2.15.1
+safetensors==0.4.2
+toml==0.10.2
+voluptuous==0.13.1
+huggingface-hub==0.20.1
+imagesize==1.4.1
+rich==13.7.1
+
+# UI/Visualization
+altair==4.2.2
+easygui==0.98.3
+
+# Additional dependencies
+pytorch-lightning==1.9.0
+triton==2.1.0
